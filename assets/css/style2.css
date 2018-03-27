@@ -1,0 +1,83 @@
+#contact {
+    float: left;
+    display: block;
+    width: 500px;
+    margin-right: 10px;
+    text-align: left;
+    background-color: #ffffff; 
+    border: 1px solid #dddddd;
+    padding: 30px;
+    margin-bottom: 200px;
+}
+
+#connect {
+    float: right;
+    display: block;
+    width: 300px;
+    margin-right: 10px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 30px;
+}
+
+#contact, #connect {
+    display: inline;
+}
+
+.page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#form {
+    margin: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[name=message] {
+    padding: 50px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#github {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+#linkedin {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+#stack {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.foot {
+    float: left;
+    padding-left: 200px;
+    display: block;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 15%;
+}
+
+footer {
+    padding: none;
+    height: 50px;
+}

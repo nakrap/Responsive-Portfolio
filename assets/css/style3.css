@@ -1,0 +1,114 @@
+.content {
+    margin: 0 auto;
+    margin-bottom: 1100px;
+    height: 1100px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.hangmancontainer { 
+    float: left;
+    position: relative;
+    width: 32%;
+    height: 250px;
+    padding: 5px;
+    padding-bottom: 30px;
+    padding-right:  30px;
+}
+
+.hangmantextblock {
+    position: absolute;
+    width: 89%;
+    bottom: 30px;
+    left: 0 auto;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+.rpgcontainer {
+    float: left;
+    position: relative;
+    width: 32%;
+    height: 250px;
+    padding: 5px;
+    padding-bottom: 30px;
+    padding-right:  30px;
+}
+
+.rpgtextblock {
+    position: absolute;
+    width: 89%;
+    bottom: 30px;
+    left: 0 auto;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+.triviacontainer {
+    clear: both;
+    float: left;
+    position: relative;
+    width: 32%;
+    height: 250px;
+    padding: 5px;
+    padding-bottom: 30px;
+    padding-right:  30px;
+    padding-top: 30px;
+}
+
+.triviatextblock {
+    position: absolute;
+    width: 89%;
+    bottom: 30px;
+    left: 0 auto;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+.widgetcontainer {
+    float: left;
+    position: relative;
+    width: 32%;
+    height: 250px;
+    padding: 5px;
+    padding-bottom: 30px;
+    padding-right:  30px;
+    padding-top: 30px;
+}
+
+.widgettextblock {
+    position: absolute;
+    width: 89%;
+    bottom: 30px;
+    left: 0 auto;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+.rockcontainer {
+    clear: both;
+    float: left;
+    position: relative;
+    width: 32%;
+    height: 250px;
+    padding: 5px;
+    padding-bottom: 30px;
+    padding-right:  30px;
+    padding-top: 30px;
+}
+
+.rocktextblock {
+    position: absolute;
+    width: 89%;
+    bottom: 30px;
+    left: 0 auto;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}

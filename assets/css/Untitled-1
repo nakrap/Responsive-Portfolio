@@ -1,0 +1,35 @@
+
+.hangmanGroup {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.rpgGroup {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.triviaGroup {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.widgetGroup {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.rockGroup {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
