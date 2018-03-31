@@ -7,18 +7,22 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style2.css" />
-    <title>Nick's Portfolio</title>
+    <title>Responsive Portfolio</title>
 </head>
 
 <header>
     <section class="headinfo">
-        <div id="nameBox">
-            <h1>Nick Akrap</h1>
+        <div class="row">
+            <div id="nameBox">
+                <h1>Nick Akrap</h1>
+            </div>
         </div>
         <nav>
-            <a href="contact.html">Contact</a> 
-            <a href="portfolio.html" id="portfolio">Portfolio</a>
-            <a href="index.html" id="about">About</a>
+            <div class="row">
+                <a href="contact.html">Contact</a> 
+                <a href="portfolio.html" id="portfolio">Portfolio</a>
+                <a href="index.html" id="about">About</a>
+            </div>
         </nav>
     </section>
 </header>
@@ -26,29 +30,29 @@
 <body>
 
     <div class="page">
-    <section class="content" id="contact">
-        <h2>Contact</h2>
-            <hr>
-            <article id="form"> 
-                <form action="/action_page.php">
-                    Name:<br>
-                    <input type="text" name="firstname" value="John Smith"><br>
-                    Email:<br>
-                    <input type="text" name="lastname" value="example@gmail.com"><br>
-                    Message:<br>
-                    <input type="text" name="message"><br><br>
-                    <input type="submit" value="Submit">
-                </form>
-            </article>
-    </section>   
-    
-    <section id="connect">
-            <h2>Connect With Me</h2>
+        <section class="content" id="contact">
+            <h2>Contact</h2>
                 <hr>
-            <img id="github" src="assets/images/githubIcon.png" alt="GitHub Icon" style="max-width:100%;height:auto;">
-            <img id="linkedin" src="assets/images/linkedinIcon.png" alt="LinkedIn Icon" style="max-width:100%;height:auto;">
-            <img id="stack" src="assets/images/stackoverflowIcon.png" alt="Stackoverflow Icon" style="max-width:100%;height:auto;">
-    </section> 
+                <article id="form"> 
+                    <form action="/action_page.php">
+                        Name:<br>
+                        <input type="text" name="firstname" value="John Smith"><br>
+                        Email:<br>
+                        <input type="text" name="lastname" value="example@gmail.com"><br>
+                        Message:<br>
+                        <input type="text" name="message"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </article>
+        </section>   
+        
+        <section id="connect">
+                <h2>Connect With Me</h2>
+                    <hr>
+                <img id="github" src="assets/images/githubIcon.png" alt="GitHub Icon" style="max-width:100%;height:auto;">
+                <img id="linkedin" src="assets/images/linkedinIcon.png" alt="LinkedIn Icon" style="max-width:100%;height:auto;">
+                <img id="stack" src="assets/images/stackoverflowIcon.png" alt="Stackoverflow Icon" style="max-width:100%;height:auto;">
+        </section> 
     </div>
 
 </body>

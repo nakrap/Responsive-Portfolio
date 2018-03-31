@@ -151,3 +151,158 @@ footer {
 {
     content: "(312) 446-2318";
 }
+
+
+/* 
+`max-width`s: `980px`, `768px` and `640px`. */
+
+
+/* For mobile phones: */
+/* [class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: lightblue;
+    }
+} */
+
+    @media screen and (max-width: 640px) {  
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            width: 640px;
+        }
+
+        h1 {
+            width: 640px;
+        }
+
+        .headinfo {
+            width: 640px;
+        }
+        
+        #nameBox {
+            display: flex;
+            flex-wrap: wrap;
+            width: 640px;
+            text-align: center;
+        }
+    
+        nav a {
+            overflow: hidden;
+            width: 28%;
+            height: 32px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 0px;
+        }
+        
+        .content {
+            margin-left: 40px;
+            margin-right: 40px; 
+            margin-bottom: 0px;
+            width: 640px;
+        }
+
+        #contact.content {
+            margin-bottom: 40px;
+        }
+
+        #connect {
+            margin-left: 40px;
+            margin-bottom: 200px;
+        }
+
+        .page {
+            display: flex;
+            flex-wrap: wrap;
+            width: 40px;
+        }
+
+        body {
+            width: 640px;
+        }
+
+        #bio {
+            width: 640px;
+        }
+
+
+
+    }  
+
+    @media screen and (max-width: 768px) {  
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+    
+        h1 {
+            width: 768px;
+        }
+        
+        #nameBox {
+            display: flex;
+            flex-wrap: wrap;
+            width: 768px;
+            text-align: center;
+        }
+    
+        nav a {
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            width: 28%;
+            height: 32px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 0px;
+        }
+        
+        .content {
+            margin-left: 40px;
+            margin-bottom: 0px;
+        }
+    
+        #contact.content {
+            margin-bottom: 40px;
+        }
+    
+        #connect {
+            margin-left: 40px;
+            margin-bottom: 200px;
+        }
+    
+        .page {
+            display: flex;
+            flex-wrap: wrap;
+            width: 768px;
+            margin-right: 40px;
+        }
+    
+    }
+    
+    
+    /* nav a {
+        display: block;
+        width: 100%;
+    }
+} */
+
+/* @media screen (max-width: 768px) {  
+    nav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen (max-width: 980px) {  
+    nav a {
+        float: none;
+        width: 100%;
+    }
+} */
+

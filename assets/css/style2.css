@@ -81,3 +81,15 @@ footer {
     padding: none;
     height: 50px;
 }
+/* 
+@media screen and (max-width: 640px) {  
+    .namebox{
+        width: 640px;
+
+    }
+    .headinfo a {
+        float: left;
+        width: 33%;;
+    }
+} */
+
